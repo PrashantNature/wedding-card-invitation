@@ -450,12 +450,11 @@
             }, 1300);
         }
 
-        // Open automatically on Chrome load
+        // Open automatically on Chrome load after 5 seconds (5000ms)
         window.addEventListener('DOMContentLoaded', () => {
-            // Auto open doors after 800ms
             setTimeout(() => {
                 openDoorAnimation();
-            }, 800);
+            }, 5000);
         });
 
         // Manual click backup
